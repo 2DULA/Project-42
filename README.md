@@ -1,4 +1,3 @@
-Hi. Im Mohamed Adil and I love anime!
 
 - .env never gets committed becuase its listed inside the .gitignore file
 
@@ -18,3 +17,32 @@ Hi. Im Mohamed Adil and I love anime!
 * 8e16bcb Add READ.me with developer introduction
 
 ```
+
+
+# 1. Inspect Status, Files & History
+- git status
+- git branch
+- git log --oneline --graph
+
+
+# 2. Connect Remote & Push Initial Branch
+- git remote add origin <repo-url>
+- git remote -v
+- git push -u origin master
+
+# 3. Stage & Commit Changes
+- git add <file>                     # or: git add .
+- git commit -m "Commit message"
+- git commit -am "Commit messgae" *FOR FILES ALREADY TRACKED*
+
+# 4. Amend Last Commit & Force-Push Safely
+- git commit --amend -m "New message"
+- git commit --amend --no-edit
+- git push --force-with-lease
+
+# 5. Branch, Pull Request Sync & Cleanup
+- git checkout -b <branch-name>
+- git push -u origin <branch-name>
+- git checkout master
+- git pull
+- git branch -d <branch-name>
