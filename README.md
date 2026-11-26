@@ -3,8 +3,8 @@
 
 ## Git Workflow Proof
 
-- **Clone URL**: `git@github.com:2DULA/Project-42.git`
-- **PR Link**: `https://github.com/2DULA/Project-42/pull/1`
+- **Clone URL**: `git@github.com:2DULA/Project-3.git`
+- **PR Link**: `https://github.com/2DULA/Project-3/pull/1`
 - **Graph Commit**: 
 ```text 
 
